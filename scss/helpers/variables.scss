@@ -1,0 +1,22 @@
+// variables
+$mainColor: #00b0ff;
+$mainBackground: #fff;
+
+$mainFont: 'Titillium Web', Arial, sans-serif;
+$secondFont: 'Open Sans', sans-serif;
+
+$container: 1250px;
+$colGups: 15px;
+
+
+$textFont-size: 1rem;  // 16px
+$linkColor: blue;
+
+$breakpoints: (
+        xs: 0,
+        sm: 575px,
+        md: 768px,
+        lg: 1025px,
+        xl: 1200px,
+        xxl: 1440px
+);

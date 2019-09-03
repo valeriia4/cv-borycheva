@@ -1,0 +1,57 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+
+  &-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 5;
+
+    span{
+      display: block;
+      height: 3px;
+      width: 30px;
+      background-color: #fff;
+    }
+  }
+  
+  &__item{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+  }
+
+  &__link{
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 600;
+     padding: 20px 0;
+    i{
+      margin-left: 10px;
+    }
+  }
+
+  .fa-home, .fa-user, .fa-file, .fa-camera{
+    color: $mainColor;
+  }
+
+
+  @media screen and (min-width: 1025px){
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-btn{
+      display: none;
+    }
+  }
+}
