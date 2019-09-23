@@ -51,6 +51,14 @@
     autoplay: true,
     slidesToShow: 5,
     slidesToScroll: 1,
-    arrows: false
+    arrows: false,
+    responsive: [{
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true
+      }
+    }]
   });
 })(jQuery);
