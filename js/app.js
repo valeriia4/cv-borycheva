@@ -38,7 +38,7 @@
   $(document).ready(function ($) {
     var nav = $('.nav-container');
     $(window).scroll(function () {
-      if ($(this).scrollTop() > 350) {
+      if ($(this).scrollTop() > 470) {
         nav.addClass("f-nav");
         $(".ba-header__img").css("display", "none");
       } else {
